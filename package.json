@@ -1,0 +1,20 @@
+{
+  "name": "openlayers",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\"",
+    "start": "parcel *.html",
+    "build": "parcel build --public-url . *.html"
+  },
+  "author": "Autor",
+  "license": "ISC",
+  "dependencies": {
+    "ol": "^9.1.0",
+    "ol-layerswitcher": "^4.1.1"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  }
+}

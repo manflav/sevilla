@@ -1,0 +1,18 @@
+/*Estilos de OL*/
+@import "ol/ol.css";
+
+/*Estilo del mapa*/
+/*Tamaño del mapa*/
+  #map{
+    width: 500px;
+    height: 500px;
+  }
+  
+ .ol-custom-overviewmap{
+    right: 0px;   /*Indica que el margen derecho es de zero píxeles*/
+    top: 0px;     /*Indica que el margen superior es de zero píxeles*/
+  
+    /*!mportant ratifica la sobreescritura de la propiedad*/
+    left: auto !important;   /*El margen izquierdo será automático y sobreescrito.*/
+    bottom: auto !important; /*El margen inferior será automático y sobreescrito.*/
+  }
